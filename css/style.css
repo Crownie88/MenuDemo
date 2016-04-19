@@ -1,0 +1,29 @@
+body { background-color: #808080;}
+#wrapper { width: 75%; margin: 5 auto 5 auto; border: 1px black solid; border-radius: 25px;}
+#content { width: 100%; height: 1246px;}
+#header { width: 100%; border-radius: 25px 25px 0 0; border: 1px red solid; background-color: #b3b3b3;}
+#footer { width: 100%; border-radius: 0 0 25px 25px; border: 1px red solid; background-color: #b3b3b3;}
+.caption { text-align: center; font-size: 50px;}
+
+/*Menu*/
+nav { background-color: #3399FF; padding: 10px 0;}
+nav ul { list-style-type:none; margin:0; padding:0;}
+nav ul li { display:inline-block; position:relative;}
+nav li ul { background-color: #0080FF; position: absolute; left: 0; top: 40px; width: 200px;}
+nav li li { position: relative; margin: 0; display: block;}
+nav li li ul { position: absolute; top: 0; left: 200px; margin: 0;}
+nav a { line-height:40px; padding:0 12px; margin:0 12px;}
+nav a { color:#000000; text-decoration:none; display:block;}
+nav a:hover, nav a:focus, nav a:active { color:#FFFFFF;}
+nav li li a { border-bottom:solid 1px #FFFFFF; margin:0 10px; padding:0;}
+nav li li:last-child a { border-bottom:none;}
+nav li.dropdown > a { background-image:url('../img/arrow-down.png'); background-position:right 20px; background-repeat:no-repeat; }
+ul.submenu { display:none;}
+
+/*#mainMenu {width: 100%; border: 1px red solid; float: left;}
+#Menu .item {width: 100px; float: left; cursor:pointer;}
+#mainMenu .item { height: 50px; background-color: #3399FF;}
+#mainMenu .item:hover {background-color: #80BFFF;}
+#subMenu {display: none; width: 100%; border: 1px red solid; float: left;}
+#subMenu .item {float: left;}
+.item p {text-align: center; margin: 0 0 0 0; padding-top: 15px; }*/
